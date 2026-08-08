@@ -15,7 +15,7 @@
 | [kabuki](https://github.com/xwebanalysis/kabuki) | WAF and CDN analysis | Planned |
 | [yari](https://github.com/xwebanalysis/yari) | API security testing | Planned |
 | [musha](https://github.com/xwebanalysis/musha) | Web content and DOM analysis | Planned |
-| [azuma](https://github.com/xwebanalysis/azuma) | Web form and authentication flow analyzer | Planned |
+| [azuma](https://github.com/xwebanalysis/azuma) | Web form and authentication flow analyzer | In development |
 
 ## Ecosystem
 

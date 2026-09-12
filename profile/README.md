@@ -8,24 +8,26 @@
 
 | Tool | Focus | Status |
 |------|-------|--------|
-| [samurai](https://github.com/xwebanalysis/samurai) | Web cybersecurity analysis | Released |
-| [shinobi](https://github.com/xwebanalysis/shinobi) | Stealth web scraping with anti-blocking | Released |
-| [tengu](https://github.com/xwebanalysis/tengu) | Web quality auditor | Released |
-| [kensei](https://github.com/xwebanalysis/kensei) | Web technology stack profiler | Planned |
-| [kabuki](https://github.com/xwebanalysis/kabuki) | WAF and CDN analysis | Planned |
-| [yari](https://github.com/xwebanalysis/yari) | API security testing | Planned |
-| [musha](https://github.com/xwebanalysis/musha) | Web content and DOM analysis | Planned |
-| [azuma](https://github.com/xwebanalysis/azuma) | Web form and authentication flow analyzer | In development |
+| [samurai](https://github.com/xwebanalysis/samurai) | Web cybersecurity analysis | Released (v2.5.0) |
+| [shinobi](https://github.com/xwebanalysis/shinobi) | Stealth web scraping with anti-blocking | Released (v0.1.0) |
+| [tengu](https://github.com/xwebanalysis/tengu) | Web quality auditor | Released (v0.2.0) |
+| [kensei](https://github.com/xwebanalysis/kensei) | Web technology stack profiler | In development (v0.3.0) |
+| [kabuki](https://github.com/xwebanalysis/kabuki) | WAF and CDN analysis | In development (v0.1.0) |
+| [yari](https://github.com/xwebanalysis/yari) | API security testing | In development (v0.1.0) |
+| [musha](https://github.com/xwebanalysis/musha) | Web content and DOM analysis | In development (v0.2.0) |
+| [azuma](https://github.com/xwebanalysis/azuma) | Web form and authentication flow analyzer | In development (v0.3.0) |
 
 ## Ecosystem
 
-- [xwa-sdk](https://github.com/xwebanalysis/xwa-sdk) — shared data schemas and API contracts
+- [xwa-sdk](https://github.com/xwebanalysis/xwa-sdk) — shared data schemas and API contracts (v0.2.0)
 - [meta](https://github.com/xwebanalysis/meta) — documentation, roadmap and orchestration
 
-Each tool is self-contained and ready to clone:
+Every tool runs 100% locally with SQLite:
 
 ```bash
 git clone https://github.com/xwebanalysis/<tool>.git
 cd <tool>
-docker compose up
+./<tool>.sh local
 ```
+
+With all repositories checked out side by side, `./xwa.sh up` starts the whole suite on distinct ports.

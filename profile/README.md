@@ -31,3 +31,8 @@ cd <tool>
 ```
 
 With all repositories checked out side by side, `./xwa.sh up` starts the whole suite on distinct ports.
+
+## License
+
+Proprietary — All rights reserved. See [LICENSE](../LICENSE) for the full terms.
+For permission requests: x@xscriptor.com
